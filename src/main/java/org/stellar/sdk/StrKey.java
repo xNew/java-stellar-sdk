@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 class StrKey {
     public enum VersionByte {
-        ACCOUNT_ID((byte)(6 << 3)), // G
+        ACCOUNT_ID((byte)(0 << 3)), // G
         SEED((byte)(18 << 3)), // S
         PRE_AUTH_TX((byte)(19 << 3)), // T
         SHA256_HASH((byte)(23 << 3)); // X
